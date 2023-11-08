@@ -22,16 +22,25 @@ The dataset covers loan data from the period 2007 to 2011, encompassing approved
 3. Charged-Off: Applicant has defaulted, failing to pay installments for an extended period.
 
 ## Conclusions
-- **Conclusion 1:** Through univariate and bivariate analysis, key variables strongly associated with loan defaults were identified. These variables include credit score, debt-to-income ratio, loan amount, and grade assigned to the applicant. Applicants with lower credit scores and higher debt-to-income ratios are more likely to default, indicating these variables as crucial indicators of default risk.
 
-- **Conclusion 2:** Time-based analysis revealed fluctuations in default rates over different years, highlighting the need for periodic risk assessment. Additionally, loan term length also influences default rates, with longer-term loans exhibiting higher default tendencies.
+- **Loan Purpose:** Most loans are primarily taken for debt repayment, followed by loans for credit card repayment. This suggests that borrowers are leveraging Lending Club to manage existing financial obligations.
 
-- **Conclusion 3:** Visualizations, such as heatmaps and bar charts, were utilized to showcase relationships between various attributes and default rates. These visualizations offer valuable insights into the factors influencing loan defaults and assist in making data-driven lending decisions.
+- **Loan Repayment:** A significant majority, accounting for 85.4% of the loans, are fully repaid, while the proportion of loans charged off is relatively lower. This demonstrates that Lending Club borrowers exhibit a strong repayment history.
+
+- **Loan Trends:** Over the years, there is a noticeable increase in the number of loans being fully repaid. This indicates a growing trust and popularity in the Lending Club platform among borrowers.
+
+- **Housing Status:** The majority of borrowers reside in rented houses or have mortgages. Housing status does not seem to be a significant factor affecting loan approval, which is advantageous for a wide range of potential borrowers.
+
+- **Loan Term:** Borrowers who opt for a 60-month repayment schedule are more likely to experience charge-offs compared to those selecting a 36-month term. This suggests that shorter loan terms may be a safer choice for both borrowers and lenders.
+
+- **Income Influence:** Borrowers with lower incomes exhibit a higher likelihood of being charged off. Risk of default decreases as payee annual income increases. This underscores the importance of considering income when assessing creditworthiness.
+
+These conclusions provide valuable insights into the operations of Lending Club and can inform business strategies and lending practices to enhance risk management and customer satisfaction.
 
 ## Technologies Used
 - **pandas -** Used for data manipulation and analysis, enabling efficient handling of the loan dataset.
 
-- **numpy -** A package for scientific computing in Python, it is a math library for super charging matrix operations.
+- **numpy -** A package for scientific computing in Python, it is a math library for supercharging matrix operations.
   
 - **matplotlib -** Employed for data visualization, aiding in the creation of insightful charts and graphs to represent patterns and trends in the data.
 
@@ -39,7 +48,7 @@ The dataset covers loan data from the period 2007 to 2011, encompassing approved
 
 ## Acknowledgements
 - This project was inspired by real-world challenges faced by financial institutions and lending companies in minimizing loan defaults.
-- This project was done as a part of project for IIIT Bangalore's Executive Post Graduate Programme in Machine Learning & Artificial Intelligence.
+- This project was done as a part of a project for LJMU and IIIT Bangalore's Masters in Machine Learning & Artificial Intelligence program.
 
 ## Contact
-Created by [@himanshuxd] 
+Created by [@himanshuxd]
